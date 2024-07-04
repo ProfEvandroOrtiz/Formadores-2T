@@ -1,4 +1,5 @@
-.cabecalho {color: var(--branco);
+.cabecalho {
+color: var(--branco);
 display: flex;
 justify-content: space-between;
 position: relative;
@@ -22,7 +23,10 @@ background-position: center;}
 
 .lisa-menu {display: none;
 position: absolute;
-top: 100%;}
+top: 100%;
+padding: 1em;
+background-color: var(--branco);
+}
 .container__botao:checked.lista_menu{
     display: block;}
 }
