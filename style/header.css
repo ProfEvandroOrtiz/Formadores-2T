@@ -27,6 +27,29 @@ top: 100%;
 padding: 1em;
 background-color: var(--branco);
 }
+
 .container__botao:checked.lista_menu{
     display: block;}
+}
+.lista-menu__titulo{
+    color: var(--laranja);
+    padding: 1em;
+    font-weight: 700;
+
+}
+.lista-menu__item{
+    color: var(--laranja);
+    padding: 1em;
+    font-weight: 700;
+
+}
+.container__botao{
+    display: none;
+}
+.lista-menu__link{
+    background: var(--azul-decgrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }
