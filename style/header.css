@@ -8,7 +8,7 @@ height: 24px;
 background-image: url("/img/Menu.svg");
 display: inline-blcok;
 background-repeat: no-repeat;
-background-position: ce;}
+background-position: center;}
 
 .container{
     display: flex;
