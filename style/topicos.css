@@ -13,14 +13,19 @@
     justify-content: center;
 
 }
-.topicos__link {
+.topicos__link{
     color: var(--branco);
     padding: 1em;
     background-color: var(--laranja);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     text-decoration: none;
 }
-.topicos__link {
+
+.topicos__item{
     margin: 2em 0.5em;
-}
+   }
+  
+
+
+
